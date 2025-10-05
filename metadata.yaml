@@ -1,0 +1,19 @@
+composer:
+  last: Gugl
+  first: Matthäus
+title: Missa Sanctissimæ Trinitatis
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, 2 vla, vlne, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KR
+    shelfmark: C 12/691
+    date: 1712
+    rism: 600172799
+    license: public domain
+    principal: true
+    notes: "fair manuscript copy by unknown hand (32 × 21 cm, hand-ruled paper, 10–11 staves per page, 10 mm), consisting of 14 parts: S solo and coro (8 pages of music), A solo and coro (10), T solo and coro (10), B solo and coro (7), clno 1 (4), clno 2 (4), timp (4), vl 1 (7), vl 2 (7), vla 1 (8), vla 2 (7), vlne (8), org (12), and maestro di capella (11); title page (wrapper, fol. 1r, by later hand): \\textit{Miſsa | SS=mae Trinitatis | à | 4. Voci. | 2. Violini. | 2. Viole | 2. Clarini | Timpani | Organo con Violone | e | Baſso per la Batutta. | L.H. | Auth. Matthaeo | Gugl. | 1712.}"
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
