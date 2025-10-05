@@ -6,7 +6,13 @@
 \include "ees_articulate.ly"
 
 
-tempoKyrie = \tempoMarkup "[Adagio]"
+hA = \once \override Accidental.stencil = ##f
+vlne = \markup \remark "vlne"
+
+
+tempoKyrie = \tempoMarkup "Adagio"
+  tempoKyrieB = \tempoMarkup "Allegro"
+  tempoChriste = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"
