@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vla 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Viola I"
+          \KyrieViolaI
         }
       >>
     }
@@ -21,10 +21,9 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \paper { system-count = #32 }
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
+        \new Staff { \GloriaViolaI }
       >>
     }
   }
@@ -33,29 +32,27 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoViolaI }
       >>
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { system-count = #16 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusViolaI }
       >>
     }
     \tacet "section" "Benedictus"
-    \markup { \vspace #3 \fontsize #3 \fill-line { "" "Osanna ut supra" "" } }
+    \markup { \vspace #2 \fontsize #3 \fill-line { "" "Osanna ut supra" "" } }
   }
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \paper { system-count = #15 }
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusViolaI }
       >>
     }
   }

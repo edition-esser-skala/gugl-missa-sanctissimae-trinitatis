@@ -6,26 +6,71 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper {
+      indent = 2\cm
+      system-count = #14
+    }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \xxxOrgano
+          \KyrieOrgano
         }
-        \new FiguredBass { \xxxBassFigures }
+        \new FiguredBass { \KyrieBassFigures }
       >>
     }
   }
   \bookpart {
-    \section "2" "Second"
+    \section "2" "Gloria"
     \addTocEntry
     \score {
       <<
-        \new Staff { \yyyOrgano }
-        \new FiguredBass { \yyyBassFigures }
+        \new Staff { \GloriaOrgano }
+        \new FiguredBass { \GloriaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CredoOrgano }
+        \new FiguredBass { \CredoBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \SanctusOrgano }
+        \new FiguredBass { \SanctusBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \BenedictusOrgano }
+        \new FiguredBass { \BenedictusBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \paper { system-count = #14 }
+    \score {
+      <<
+        \new Staff { \AgnusOrgano }
+        \new FiguredBass { \AgnusBassFigures }
       >>
     }
   }
