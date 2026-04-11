@@ -13,7 +13,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \KyrieClarinoI \KyrieClarinoII
           >>
         >>
@@ -91,7 +91,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \GloriaClarinoI \GloriaClarinoII
           >>
         >>
@@ -169,7 +169,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \CredoClarinoI \CredoClarinoII
           >>
         >>
@@ -247,7 +247,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \SanctusClarinoI \SanctusClarinoII
           >>
         >>
@@ -355,7 +355,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \AgnusClarinoI \AgnusClarinoII
           >>
         >>

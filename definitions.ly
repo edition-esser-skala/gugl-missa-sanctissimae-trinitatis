@@ -8,8 +8,6 @@
 
 aTre = \markup \remark "a 3"
 aTreE = \markup \remarkE "a 3"
-hA = \once \override Accidental.stencil = ##f
-vlne = \markup \remark "vlne"
 markOsannaUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Osanna ut supra"
@@ -18,35 +16,35 @@ markOsannaUtSupra = {
 
 tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieB = \tempoMarkup "Allegro"
-  tempoChriste = \tempoMarkup "Christe · Allegro"
-tempoGloria = \tempoMarkup "Et in terra"
-  tempoDomine = \tempoMarkup "Domine" %135
-  tempoQuiTollis = \tempoMarkup "Qui tollis · Alla breve" %240
-  tempoMiserere = \tempoMarkup "Miserere · Adagio" %80
-  tempoQuiTollisB = \tempoMarkup "Qui tollis · Alla breve" %240
-  tempoSuscipe = \tempoMarkup "Suscipe" %300
-  tempoQuiSedes = \tempoMarkup "Qui sedes · Alla breve" %240
-  tempoMiserereB = \tempoMarkup "Miserere · Alla breve" %240
-  tempoQuoniam = \tempoMarkup "Quoniam" %240
-  tempoCumSancto = \tempoMarkup "Cum Sancto · Allegro" %100
-tempoCredo = \tempoMarkup "Patrem"
-  tempoEtInUnum = \tempoMarkup "Et in unum" %240
-  tempoQuiPropter = \tempoMarkup "Qui propter" %70
-  tempoEtIncarnatus = \tempoMarkup "Et incarnatus · Adagio" %60
-  tempoCrucifixus = \tempoMarkup "Crucifixus · Adagio" %60
-  tempoPassus = \tempoMarkup "Passus" %60
-  tempoEtResurrexit = \tempoMarkup "Et resurrexit" %140
-  tempoEtAscendit = \tempoMarkup "Et ascendit" %105
-  tempoEtIterum = \tempoMarkup "Et iterum" %75
-  tempoQuiCumPatre = \tempoMarkup "Qui cum Patre" %240
-  tempoConfiteor = \tempoMarkup "Confiteor" %70
-  tempoAmen = \tempoMarkup "Amen" %90
-tempoSanctus = \tempoMarkup "Sanctus"
-  tempoPleni = \tempoMarkup "Pleni · Allegro"
-  tempoOsanna = \tempoMarkup "Osanna · Allegro"
-tempoBenedictus = \tempoMarkup "Benedictus"
-tempoAgnus = \tempoMarkup "Agnus"
-  tempoDona = \tempoMarkup "Dona"
+  tempoChriste = \tempoTitleMarkup "Christe" "Allegro"
+tempoGloria = \tempoTitle "Et in terra"
+  tempoDomine = \tempoTitle "Domine" %135
+  tempoQuiTollis = \tempoTitleMarkup "Qui tollis" "Alla breve" %240
+  tempoMiserere = \tempoTitleMarkup "Miserere" "Adagio" %80
+  tempoQuiTollisB = \tempoTitleMarkup "Qui tollis" "Alla breve" %240
+  tempoSuscipe = \tempoTitle "Suscipe" %300
+  tempoQuiSedes = \tempoTitleMarkup "Qui sedes" "Alla breve" %240
+  tempoMiserereB = \tempoTitleMarkup "Miserere" "Alla breve" %240
+  tempoQuoniam = \tempoTitle "Quoniam" %240
+  tempoCumSancto = \tempoTitleMarkup "Cum Sancto" "Allegro" %100
+tempoCredo = \tempoTitle "Patrem"
+  tempoEtInUnum = \tempoTitle "Et in unum" %240
+  tempoQuiPropter = \tempoTitle "Qui propter" %70
+  tempoEtIncarnatus = \tempoTitleMarkup "Et incarnatus" "Adagio" %60
+  tempoCrucifixus = \tempoTitleMarkup "Crucifixus" "Adagio" %60
+  tempoPassus = \tempoTitle "Passus" %60
+  tempoEtResurrexit = \tempoTitle "Et resurrexit" %140
+  tempoEtAscendit = \tempoTitle "Et ascendit" %105
+  tempoEtIterum = \tempoTitle "Et iterum" %75
+  tempoQuiCumPatre = \tempoTitle "Qui cum Patre" %240
+  tempoConfiteor = \tempoTitle "Confiteor" %70
+  tempoAmen = \tempoTitle "Amen" %90
+tempoSanctus = \tempoTitle "Sanctus"
+  tempoPleni = \tempoTitleMarkup "Pleni" "Allegro"
+  tempoOsanna = \tempoTitleMarkup "Osanna" "Allegro"
+tempoBenedictus = \tempoTitle "Benedictus"
+tempoAgnus = \tempoTitle "Agnus"
+  tempoDona = \tempoTitle "Dona"
 
 
 \include "notes/clno1.ly"
